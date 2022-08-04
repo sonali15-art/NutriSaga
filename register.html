@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          #wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        top: 50px;
+        left: 500px;
+        /* background-color: #444444; */
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+      }
+      .navbar li {
+        height: auto;
+        width: 135px;
+        float:left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 18px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        /* background-color: #444444; */
+      }
+      .navbar a {
+        padding: 18px 0;
+        border-left: 1px solid gray;
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+        display: block;
+      }
+      .navbar li:hover,
+      a:hover {
+        background-color: red;
+      }
+      .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li:hover ul {
+        display: block;
+      }
+      .navbar li ul li {
+        background-color: #444444;
+      }
+      .navbar li ul li a {
+        border-left: 1px solid #444444;
+        border-right: 1px solid #444444;
+        border-top: 1px solid #c9d4d8;
+        border-bottom: 1px solid #444444;
+      }
+      .navbar li ul li a:hover {
+        background-color: rgb(230, 67, 67);
+      }
+      
+         .logo_name{
+    position: relative;
+    top:-40px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #d00c1d;
+    text-decoration: underline rgb(27, 138, 27) 2px;
+
+}
+.thnku{
+    position: relative;
+    top:-1px;
+    left: 300px;
+}
+.thnku p{
+    position: relative;
+    top: 5px;
+    left:250px;
+    font-size: 25px;
+    color: black;
+}
+.thnku h2{
+    position: relative;
+    top: 5px;
+    left:120px;
+    font-size: 35px;
+    color: forestgreen;
+}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <ul class="navbar">
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+             </li>
+          <li>
+            <a href="#">Services</a>
+            <ul>
+              <li>
+                <a href="familyhealth.html">Family Health</a>
+              </li>
+              <li>
+                <a href="child nutri.html">Child Nutrition</a>
+              </li>
+              <li>
+                <a href="">Sport Nutrition</a>
+              </li>
+              <li>
+                <a href="">My Nutrition Score</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Success Stories</a>
+            <ul>
+              <li>
+                <a href="testimonial.html">Testimonials</a>
+              </li>
+              <li>
+                <a href="">Our clients</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="blog.html">Blogs</a>
+            </li>
+         
+          <li>
+            <a href="contact.html">Contact Us</a>
+             </li>
+        </ul>
+      </div>
+    
+    
+    
+    <div class="logo_name">
+        <h3>NutriSaga</h3>
+      </div>
+
+
+    <div class="thnku">
+        <img src="thank_you_2.jpg" alt="" width="800" height="500">
+        <p>Thank you for your enquiry</p>
+        <h2>We Will Get In Touch With You Soon</h2>
+    </div>
+</body>
+</html>
